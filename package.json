@@ -21,6 +21,7 @@
     "coffee-script": "^1.9.3",
     "commander": "^2.8.1",
     "del": "^1.2.0",
+    "jade": "^1.11.0",
     "phantom": "^0.7.2"
   },
   "devDependencies": {
