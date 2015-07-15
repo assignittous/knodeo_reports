@@ -1,4 +1,4 @@
 exports.reportGenerator = {
-  htmlToPdf: require("./lib/html-to-pdf").html - to - pdf,
+  htmlToPdf: require("./lib/html-to-pdf").htmlToPdf,
   htmlReport: require("./lib/report").htmlReport
 };
