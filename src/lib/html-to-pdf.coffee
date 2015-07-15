@@ -12,7 +12,7 @@ exports.htmlToPdf = {
 
         paperSize = 
           format: "Letter"
-          orientation: 'landscape'
+          orientation: 'portrait'
           margin: '1cm'
 
         page.open url, (status)->
@@ -25,11 +25,11 @@ exports.htmlToPdf = {
                 return true
               , 200
             , (result) ->
-              console.log "done"
-              console.log output
+              #console.log "done"
+              #console.log output
 
-              console.log page.paperSize
-              console.log 'Result ' + result
+              #console.log page.paperSize
+              #console.log 'Result ' + result
               page.set "paperSize", paperSize
 
 
