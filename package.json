@@ -1,5 +1,5 @@
 {
-  "name": "knodeo_reports",
+  "name": "knodeo-reports",
   "version": "0.1.0",
   "description": "Simple report generator",
   "main": "index.js",
